@@ -1,0 +1,12 @@
+@model List<PragyaPortfolio.Web.Models.Skills>
+
+<h1>Skills</h1>
+<ul>
+    @foreach (var skill in Model)
+    {
+        <li>
+            <strong>@skill.Name</strong> - 
+            @skill.Category (@skill.Level)
+        </li>
+    }
+</ul>
