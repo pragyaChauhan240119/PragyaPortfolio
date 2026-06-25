@@ -6,22 +6,22 @@ namespace PragyaPortfolio.Web.Controllers
     {
         public IActionResult Index()
         {
-            var skills  = new List<Models.Skills>
+            var skills  = new List<Models.Skill>
             {
-                new Models.Skills
+                new Models.Skill
                 {Name = "Git",
                 Category = "DevOps",
                 Level = "Beginner"},
 
-                new Models.Skills{ Name = "GitHub",
+                new Models.Skill{ Name = "GitHub",
                 Category = "DevOps",
                 Level = "Beginner"},
 
-                new Models.Skills{ Name = "ASP.NET Core",
+                new Models.Skill{ Name = "ASP.NET Core",
                 Category = "Backend",
                 Level = "Learning"},
 
-                new Models.Skills{  Name = "C#",
+                new Models.Skill{  Name = "C#",
                 Category = "Backend",
                 Level = "Learning"}
 
