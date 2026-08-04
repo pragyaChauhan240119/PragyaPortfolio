@@ -70,3 +70,4 @@ PragyaPortfolio
 - [ ] Display skills from database
 - [ ] Add Projects section
 - [ ] Deploy portfolio website
+# PragyaPortfolio
