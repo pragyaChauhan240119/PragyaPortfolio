@@ -12,7 +12,7 @@ public class PortfolioDbContext : DbContext
 
     public DbSet<PortfolioOwner> PortfolioOwners { get; set; }
     public DbSet<Skill> Skills { get; set; }
-
+    public DbSet<Project> Projects { get;set;}
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
