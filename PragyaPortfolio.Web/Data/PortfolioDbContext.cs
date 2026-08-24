@@ -59,5 +59,24 @@ public class PortfolioDbContext : DbContext
                 Level = "Intermediate"
             }
         );
+        modelBuilder.Entity<Project>().HasData(
+            new Project
+            {
+               Id = 1,
+               Name = "PragyaPortfolio",
+               Description = "An ASP.NET Core MVC portfolio application built to showcase technical skills, projects and learning journey.",
+               Technologies = new List<string>
+               {
+                 "C#",
+                 "ASP.NET Core",
+                 "Entity Framework Core",
+                 "SQLite",
+                 "Git",
+                 "GitHub"
+              },
+               GithubLink = "https://github.com/pragyaChauhan240119",
+               LiveDemoLink = ""
+            }
+    );
     }
 }
